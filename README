@@ -1,1 +1,11 @@
-First Repo
+## First Repo
+
+So what can you do with git?
+
+git is most useful as a way to both track changes to a set number of files, as well as work collaboratively on a project across a team. For example, when I add this change to this repository, there will be a new "commit" created that has as its "parent" the initial commit. I can "push" this change up to my fork, and you can also then choose to "merge" these changes into your own repository.
+
+If, however, you make your own change to the repository at the same time, git will attempt to intelligently combine the changes into one additional commit.
+
+At any time, you can see the entire line of commits that make up the history of a repository by running "git log" on the command line, or pulling up the "commits" view in github.
+
+Additionally, git has what's known as branches. Branches are a powerful way to separate out ideas about what to do next. For example, if you're working on a software project, and there's a main "development" branch that you share with a number of other people, you might want to create a branch from that in order to try out a drastic new change before sharing it with other people. You can change to another branch at any time by running "git checkout _branchname_", and create a new branch with "git checkout -b _branchname_". You can see an example of this in my repo [buildyourownlisp](https://github.com/deltamualpha/buildyourownlisp/branches), which has a branch a little ways back in the history where I played around with a different syntax for a part of the language.
