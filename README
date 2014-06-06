@@ -1,6 +1,8 @@
 ## First Repo
 
-So what can you do with git?
+Version control is the bedrock of modern software development. It allows for controllable, understandable versioning of code over time, integrated backup and distributed replication, and collaborative workflows. Git is one of the most popular options for Distributed Version Control, but there are competitors (such as Mercurial and Bazaar).
+
+What can you do with git?
 
 git is most useful as a way to both track changes to a set number of files, as well as work collaboratively on a project across a team. For example, when I add this change to this repository, there will be a new "commit" created that has as its "parent" the initial commit. I can "push" this change up to my fork, and you can also then choose to "merge" these changes into your own repository.
 
